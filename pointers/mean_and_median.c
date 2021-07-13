@@ -38,5 +38,7 @@ int main(){
     }else{
         printf("\nmedian is %d\n",*(array+(size/2)+1));
     }
+    free(array);
+    array = NULL;
     return 0;
 }

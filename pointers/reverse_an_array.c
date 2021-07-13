@@ -29,5 +29,7 @@ int main(){
         printf("%d ",*(array+i));
     }
     printf("\n");
+    free(array);
+    array = NULL;
     return 0;
 }

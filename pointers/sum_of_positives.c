@@ -20,6 +20,7 @@ int main(){
         }
     }
     printf("sum of positive numbers is %d\n",*array);
-    
+    free(array);
+    array = NULL;
     return 0;
 }

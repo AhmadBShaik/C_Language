@@ -25,5 +25,7 @@ int main(){
         }
     }
     printf("There are %d distinct elements\n",count);
+    free(array);
+    array = NULL;
     return 0;
 } 
